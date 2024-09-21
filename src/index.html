@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Index</title>
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+        body {
+            background-color: #87CEEB;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .content {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 20px;
+        }
+        .content img {
+            max-width: 300px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .content .description p {
+            text-align: left;
+        }
+        .content-reverse {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 20px;
+            flex-direction: row-reverse;
+        }
+        .content-reverse img {
+            max-width: 300px;
+            height: auto;
+            margin-left: 20px;
+        }
+        .content-reverse .description p {
+            text-align: left;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+          integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <div class="pure-menu pure-menu-horizontal" style="background-color: #333;">
+        <div class="pure-u-1-3 logo">
+            <a href="index.html">
+                <img src="/images/strawberrylogo.png" alt="Company Logo" height="18" width="18" class="pure-menu-heading pure-menu-link">
+            </a>
+        </div>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item">
+                <a href="index.html" class="pure-menu-link">Home</a>
+            </li>
+            <li class="pure-menu-item">
+                <a href="aboutus.html" class="pure-menu-link">About Us</a>
+            </li>
+            <li class="pure-menu-item">
+                <a href="contactus.html" class="pure-menu-link">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</head>
+
+<body>
+    <div>
+        <img src="/images/piebanner.png" alt="Banner" style="width: 100%; height: auto;">
+    </div>
+
+    <h1>The Baker's Dozen</h1>
+
+    <p>Welcome to our home page! We are pleased to have you here and hope you enjoy everything you see. Our company cares deeply for our customers
+    day in and day out. There is nothing that pleases us more than serving you. Here at the Baker's Dozen, we like to bake pies completely from scratch
+    using our crafted homemade recipes and ingredients directly from our backyard! This is the secret to how we keep everything fresh just for you all
+    the time.</p>
+
+    <div class="content">
+        <img src="/images/applepie.png" alt="Apple Pie">
+        <div class="description">
+            <p>On the left here, we have displayed a freshly baked apple pie. It has the perfect amount of cinnamon and will blow your
+                taste buds away! The apples come freshly picked from the Baker's Ranch, and they are always used the day that they are picked from
+                the trees. This pie was our best-seller for all of 2023, and we hope that you enjoy it as much as the next person!</p>
+        </div>
+    </div>
+
+    <div class="content-reverse">
+        <img src="/images/cherrypie.png" alt="Cherry Pie">
+        <div class="description">
+            <p>Not a fan of apples or cinnamon? That's quite alright as we have this freshly baked cherry pie on the right as well. Its tartness is
+                balanced with a sweet, flaky crust making it the perfect pie for any occasion!</p>
+        </div>
+    </div>
+
+</body>
+</html>

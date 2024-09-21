@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Index</title>
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+        body {
+            background-color: #87CEEB;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 20px auto; /* Center the form and add margin */
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .form-container label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .form-container textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        .form-container button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #555;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px auto;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+          integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <div class="pure-menu pure-menu-horizontal" style="background-color: #333;">
+        <div class="pure-u-1-3 logo">
+            <a href="index.html">
+                <img src="/images/strawberrylogo.png" alt="Company Logo" height="18" width="18" class="pure-menu-heading pure-menu-link">
+            </a>
+        </div>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item">
+                <a href="index.html" class="pure-menu-link">Home</a>
+            </li>
+            <li class="pure-menu-item">
+                <a href="aboutus.html" class="pure-menu-link">About Us</a>
+            </li>
+            <li class="pure-menu-item">
+                <a href="contactus.html" class="pure-menu-link">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</head>
+<body>
+    <div>
+        <img src="/images/piebanner.png" alt="Banner" style="width: 100%; height: auto;">
+    </div>
+    <h1>The Baker's Dozen</h1>
+    <p>Leave us a message!</p>
+    <div class="form-container">
+        <form action="#" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <div class="image-container">
+        <img src="/images/piefarm.png" alt="Family Farm">
+    </div>
+</body>
+</html>
